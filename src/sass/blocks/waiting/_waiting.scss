@@ -1,0 +1,60 @@
+.waiting {
+	min-height: 600px;
+	padding: 90px 20px 75px;
+	text-align: center;
+	background: $white;
+
+	&__title {
+		font-weight: 400;
+		font-size: 30px;
+		// line-height: 30px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $black;
+		margin-bottom: 18px;
+	}
+
+	&__divider {
+		@include divider;
+	}
+
+	&__subtitle {
+		font-weight: 400;
+		font-size: 23px;
+		// line-height: 20px;
+		text-align: center;
+		color: $darkGrey;
+		margin-top: 18px;
+	}
+
+	&__wrapper {
+		display: grid;
+		margin-top: 45px;
+		grid-template: repeat(auto-fill, minmax(300px, auto)) / repeat(auto-fill, minmax(auto, 342px));
+		gap: 48px;
+		justify-content: center;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		max-width: 342px;
+	}
+
+	&__icon {
+		margin-bottom: 26px;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__descr {
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 21px;
+		text-align: center;
+		color: $darkGrey;
+	}
+}

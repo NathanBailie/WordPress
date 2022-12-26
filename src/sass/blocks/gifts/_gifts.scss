@@ -1,0 +1,32 @@
+.gifts {
+	min-height: 630px;
+	background: $white;
+	// margin: 0 auto;
+	// text-align: center;
+	padding: 90px 20px;
+
+	&__icon {
+		max-width: 155px;
+		max-height: 175px;
+		margin: 0 auto;
+		margin-bottom: 45px;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__descr {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 43px;
+		text-align: center;
+		color: $black;
+		text-align: center;
+	}
+
+	&__button {
+		margin-top: 50px;
+	}
+}

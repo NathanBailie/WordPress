@@ -1,0 +1,44 @@
+.announcement {
+	padding: 81px 20px 53px;
+	min-height: 510px;
+	text-align: center;
+
+	&__icon {
+		max-width: 340px;
+		max-height: 200px;
+		margin: 0 auto 36px;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__notice {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 30px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $black;
+		margin-bottom: 30px;
+	}
+
+	&__date {
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 36px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $skyBlue;
+		margin-bottom: 24.5px;
+	}
+
+	&__additional {
+		font-weight: 400;
+		font-size: 23px;
+		line-height: 20px;
+		text-align: center;
+		color: $brightBlack;
+	}
+}

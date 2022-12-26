@@ -1,0 +1,38 @@
+.footer {
+	min-height: 170px;
+	padding: 55px 20px 70px;
+	background: $black;
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-width: 400px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__divider {
+		margin: auto 10px;
+		border: 1px solid $grey;
+		height: 17px;
+	}
+
+	&__helpdesk,
+	&__privacy,
+	&__phone {
+		a {
+			font-weight: 300;
+			font-size: 15px;
+			line-height: 21px;
+			text-decoration-line: underline;
+			color: $grey;
+		}
+	}
+
+	&__phone {
+		a {
+			text-decoration-line: none;
+		}
+	}
+}

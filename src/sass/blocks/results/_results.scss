@@ -1,0 +1,61 @@
+.results {
+	padding: 85px 20px 70px;
+	min-height: 450px;
+	background: url('../img/bg/second_bg.png') center center / cover no-repeat;
+
+	&__title {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 30px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #EFEFEF;
+		margin-bottom: 18px;
+	}
+
+	&__divider {
+		@include divider;
+	}
+
+	&__wrapper {
+		margin-top: 40px;
+		display: grid;
+		grid-template: repeat(auto-fill, minmax(180px, auto)) / repeat(auto-fill, minmax(auto, 218px));
+		gap: 12px;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	&__item {
+		display: flex;
+		max-width: 218px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__icon {
+		width: 118px;
+		height: 118px;
+		border-radius: 50%;
+		background: $brightSkyBlue;
+		margin-bottom: 24.5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			max-width: 70px;
+			max-height: 65px;
+		}
+	}
+
+	&__descr {
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 20px;
+		text-align: center;
+		color: $white;
+		padding: 5px;
+	}
+}

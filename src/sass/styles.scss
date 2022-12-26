@@ -1,0 +1,42 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+	position: relative;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+
+// blocks
+@import "blocks/promo/promo";
+@import "blocks/waiting/waiting";
+@import "blocks/optimization/optimization";
+@import "blocks/results/results";
+@import "blocks/buttons/buttons";
+@import "blocks/gifts/gifts";
+@import "blocks/announcement/announcement";
+@import "blocks/footer/footer";
+@import "blocks/chevrons/chevrons";
+
+// Media
+@import "blocks/promo/media";
+@import "blocks/waiting/media";
+@import "blocks/optimization/media";
+@import "blocks/results/media";
+@import "blocks/buttons/media";
+@import "blocks/gifts/media";
+@import "blocks/announcement/media";
+@import "blocks/footer/media";
+@import "blocks/chevrons/media";
