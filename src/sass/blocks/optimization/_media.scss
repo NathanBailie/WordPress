@@ -2,18 +2,22 @@
 	.container {
 		max-width: 960px;
 	}
+
 	.optimization {
 		padding: 80px 20px 40px;
 
 		&__wrapper {
 			max-width: 640px;
 		}
+
 		&__title {
 			font-size: 23px;
 		}
+
 		&__descr {
 			font-size: 18px;
 		}
+
 		&__image {
 			top: 0;
 		}
@@ -33,29 +37,34 @@
 
 	.optimization {
 		padding: 70px 20px 40px;
+
 		&__image {
 			display: none;
 		}
+
 		&__image2 {
 			display: block;
 			width: 300px;
 			// height: 300px;
 			float: left;
+
 			img {
 				width: 100%;
 			}
 		}
+
 		&__wrapper {
 			margin: 0 auto;
 			width: 100%;
 		}
+
 		&__title {
 			font-size: 28px;
 			margin-bottom: 25px;
 		}
+
 		&__descr {
 			font-size: 20px;
-			// text-align: left;
 			text-align: justify;
 
 		}
@@ -66,10 +75,10 @@
 	.container {
 		max-width: 540px;
 	}
+
 	.optimization {
 		&__image2 {
 			width: 200px;
-			// height: 300px;
 		}
 
 	}
@@ -79,11 +88,13 @@
 	.container {
 		max-width: auto;
 	}
+
 	.optimization {
 
 		&__title {
 			font-size: 25px;
 		}
+
 		&__descr {
 			font-size: 18px;
 		}
@@ -95,6 +106,7 @@
 		max-width: 100%;
 		padding: 0 10px;
 	}
+
 	.optimization {
 		&__image2 {
 			display: none;
@@ -103,6 +115,7 @@
 		&__title {
 			font-size: 21px;
 		}
+
 		&__descr {
 			font-size: 17px;
 			text-align: center;
