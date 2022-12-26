@@ -25,14 +25,13 @@
 			font-weight: 300;
 			font-size: 15px;
 			line-height: 21px;
-			text-decoration-line: underline;
 			color: $grey;
-		}
-	}
-
-	&__phone {
-		a {
 			text-decoration-line: none;
+
+			&:hover {
+				color: rgb(221, 221, 221);
+				text-decoration-line: underline;
+			}
 		}
 	}
 }

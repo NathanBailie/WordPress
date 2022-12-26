@@ -5,14 +5,18 @@
 	max-width: 334px;
 	max-height: 72px;
 	margin: 70px auto 0;
-	cursor: pointer;
-	border-radius: 3px;
+	border-radius: 7px;
 	transition: all 0.3s;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	cursor: pointer;
 	user-select: none;
+	font-size: 21px;
+	text-transform: uppercase;
+	color: $white;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 
 	&:hover {
 		transform: scale(1.03);
@@ -24,10 +28,4 @@
 		background-color: $darkSkyBLue;
 		color: rgb(230, 230, 230);
 	}
-
-	// text of the button
-	font-size: 21px;
-	text-transform: uppercase;
-	color: $white;
-	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 }
