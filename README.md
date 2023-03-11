@@ -13,3 +13,4 @@ This is a one page web site about a WordPress seminar
 * CSS (SCSS, flex, grid, cross-browser adaptive)
 * JavaScript
 * GULP
+* Done by layout of Figma
